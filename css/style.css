@@ -12,38 +12,105 @@ body {
 	font-size: 18px;
 	text-align:center;
 }
-
-#project a{
+#corps1{
+    background-image: radial-gradient(salmon,white);
 }
 
-#logo1{
-    
-    height:13.5em;
+#logo3{
+    display: flex;
 }
 
 
-#carte{
-    height: 9em;
-    margin-right: 7%;
+#navigation6 a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
 }
 
-#video{
-        float:right;
-       margin-right: 13%;
-       margin-top:-1%; 
+#navigation5{
+margin-left: 35%;
+}
+
+#navigation5 a{
+    text-decoration: none;
+    margin: 1%;
+    color: white;
+    font-size: 1.3rem;
+}
+   
+#myvideos{
+display: flex;
+}
+
+#myvideos a{
+margin-right: 2%;
+
+}
+
+#logo2{
+    height: 13.5rem;
+}
+
+#naviga a{
+text-decoration: none;
+color: white;
+margin: 1.5px;
+font-size: 1.5rem;
+font-size: 1.2rem;
+}
+
+#naviga{
+margin-left: 40%;}
+
+#certi{
+width: 55%; 
+height: 15.5rem;
+margin-right: 60%;
+margin-top: 20%;
+}
+
+#card{
+    width: 60%;
+  height: 15.5rem;
+margin-left: 60%;
+    margin-top: -43%;
+    margin-bottom: 4.7%;
+}
+
+#image1 a{
+    margin-top: -20%;
 }
 
 @media screen and (max-width: 920px) {
-	#carte{
-    height: 9em;
-    margin-right: 7%;
+#certi{
+width: 55%; 
+height: 15.5rem;
+margin-right: 60%;
+margin-top: 20%;
 }
 
-#video{
-        float:right;
-       margin-right: 13%;
-       margin-top:-1%; 
+#card{
+width: 60%;
+height: 15.5rem;
+margin-left: 60%;
+margin-top: -43%;
+margin-bottom: 4.7%;
 }
+    
+#naviga a{
+text-decoration: none;
+color: white;
+margin: 1.5px;
+}
+#myvideos{
+display: flex;
+}
+
+   
+#naviga{
+margin-left: 40%;}
+
+
 }
 
 h1 {
@@ -134,6 +201,7 @@ nav {
 nav img {
 	width: 75%;
 	margin:0;
+    height: 8rem;
 }
 
 
@@ -154,7 +222,7 @@ nav a:hover {
 	/*padding: 2em;*/
 	border-bottom: 1px solid #CCC;
 	clear: both;
-    background-image: repeating-radial-gradient(darkorange,burlywood)
+    background-image: repeating-radial-gradient(darkorange,white);
 }
 
 
@@ -163,6 +231,7 @@ nav a:hover {
 	width: 30%;
 	margin-top: 1%;
     margin-left: 5%;
+    height: 13.5rem;
 }
 
 .border {
@@ -313,12 +382,19 @@ li {
 }
 
 @media screen and (max-width: 1000px) {
-	.columns {
-		float: none;
-		width: 100%;
-	}
+.columns {
+float: none;
+width: 100%;
+}
+  
+#myvideos{
+display: flex;
 }
 
+
+    #myvideos a{margin-right: 2%;
+    }  
+}
 @media screen and (max-width: 920px) {
 	.namenav h3 {
 		display: none;
@@ -329,6 +405,16 @@ li {
 	.projectdeets p {
 		width: 90%;
 	}
+    
+    #myvideos{
+display: flex;
+}
+
+#myvideos a{
+margin-right: 2%;
+
+}
+    
 }
 
 @media screen and (max-width: 870px) {
@@ -346,7 +432,22 @@ li {
 		width: 46%;
 		margin: 1%;
 	}
+    
+    #certi{
+width: 55%; 
+height: 15.5rem;
+margin-right: 60%;
+margin-top: 20%;
 }
+
+#card{
+    width: 60%;
+  height: 15.5rem;
+margin-left: 60%;
+    margin-top: -43%;
+    margin-bottom: 4.7%;
+}
+
 
 	#bio {
 		margin-right: 0;
@@ -368,12 +469,17 @@ li {
 	.projectdeets h2 {
 		width: 90%;
 	}
+    
+     #myvideos{
+display: flex;
+}
 
-#logo1{
-    width: 2%;s
-    height:13.5em;
+#myvideos a{
+margin-right: 2%;
+
 }
 }
+
 
 @media screen and (max-width: 590px) {
 	h1 {
@@ -411,10 +517,41 @@ li {
 	 	width: 100%;
 		text-align: left;
 	}
+    
+#naviga a{text-decoration: none;
+color: white;
+margin: 1.5px;
+}
+
+#naviga{
+margin-left: 40%;}
     nav a{
          margin-left: -4%;}
     }
+#certi{
+width: 55%; 
+height: 15.5rem;
+margin-right: 60%;
+margin-top: 20%;
 }
+
+#card{
+    width: 60%;
+  height: 15.5rem;
+margin-left: 60%;
+    margin-top: -43%;
+    margin-bottom: 4.7%;
+}
+#myvideos{
+display: flex;
+}
+
+#myvideos a{
+margin-right: 2%;
+
+}
+
+
 
 @media screen and (max-width: 480px) {
 	h2 {
@@ -432,10 +569,16 @@ li {
 
 	}
 
+    #naviga a{text-decoration: none;
+color: white;
+margin: 1.5px;
+}
+
+#naviga{
+margin-left: 40%;}
 }
 #contact{
-background-color:goldenrod;
-
+background-image: radial-gradient(salmon,white);
 }
 
 @media screen and (max-width: 410px) {
@@ -443,6 +586,13 @@ background-color:goldenrod;
 		width: 100%;
 		display:block;
 	}
+    #naviga a{text-decoration: none;
+color: white;
+margin: 1.5px;
+}
+
+#naviga{
+margin-left: 40%;}
 	.namenav {
 		text-align:center;
 		width:100%;
@@ -463,4 +613,27 @@ background-color:goldenrod;
 		text-align:center;
 		display:block;
 	}
+    
+    #certi{
+width: 55%; 
+height: 15.5rem;
+margin-right: 60%;
+margin-top: 20%;
+}
+
+#card{
+    width: 60%;
+  height: 15.5rem;
+margin-left: 60%;
+    margin-top: -43%;
+    margin-bottom: 4.7%;
+}
+    #myvideos{
+display: flex;
+}
+
+#myvideos a{
+margin-right: 2%;
+
+}
 }
